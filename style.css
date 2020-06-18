@@ -1,6 +1,23 @@
-.suez{
-font-family: 'Suez One', serif;
+.logo{
+  font-family: 'Skranji', cursive;
 }
-.staatliches{
-  font-family: 'Staatliches', cursive;
-}
+ .main{
+font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .robin{
+   background-image: url(https://www.denofgeek.com/wp-content/uploads/2020/06/batman-forever-robin.png);
+background-size: cover;
+
+min-height: 65vh;
+
+ }
+
+ .btn.movie{
+   border-radius: 0%;
+   background-color: green;
+   padding-top: 0;
+   padding-bottom: 0;
+   padding-left: .5rem;
+   padding-right: .5rem;
+ }
