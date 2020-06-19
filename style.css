@@ -8,9 +8,11 @@ font-family: 'Montserrat', sans-serif;
  .robin{
    background-image: url(https://www.denofgeek.com/wp-content/uploads/2020/06/batman-forever-robin.png);
 background-size: cover;
+height: 65vh;
 
-min-height: 65vh;
-
+ }
+ .bg-black{
+   background-color: black;
  }
 
  .btn.movie{
@@ -20,4 +22,9 @@ min-height: 65vh;
    padding-bottom: 0;
    padding-left: .5rem;
    padding-right: .5rem;
+ }
+
+ .btn-teal{
+   background-color: rgb(51, 238, 182);
+   color: black;
  }

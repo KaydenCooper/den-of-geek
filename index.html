@@ -27,24 +27,31 @@
 
 
 <body class="main">
-  <header class="container-fluid bg-dark text-uppercase text-light">
+  <header class="container-fluid sticky-top bg-black text-uppercase text-light">
 
     <!-- Actual header -->
     <div class="row align-content-center">
 
-      <div class="col-4 text-uppercase m-auto px-4">
-        Subscribe
+      <div class="col-4 text-center text-uppercase m-auto px-4">
+        <button class="btn text-white"> Subscribe<i class="fa fa-angle-double-right fa-1x px-2"
+            aria-hidden="true"></i></button>
       </div>
 
       <div class="col-4 text-center logo text-uppercase">
         <h1><b>Den of Goblin</b></h1>
       </div>
 
-      <div class="col-4 d-flex justify-content-end align-items-center">
+      <div class="col-4 d-flex justify-content-center align-items-center" id="">
         <i class="fa fa-facebook fa-1x px-2"></i>
         <i class="fa fa-twitter fa-1x px-2"></i>
         <i class="fa fa-instagram fa-1x px-2"></i>
         <i class="fa fa-youtube-play fa-1x px-2"></i>
+        <button class="btn bg-black text-white" data-toggle="collapse" data-target="#searchCollapse"><i
+            class="fa fa-search"></i></button>
+        <div class="collapse" id="searchCollapse">
+          <form class="form-inline">
+            <input class="form-control bg-black mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </div>
 
       </div>
 
@@ -52,7 +59,8 @@
 
     <!-- Nav -->
     <div class="row justify-content-center">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black justify-content-between">
 
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -109,7 +117,33 @@
       </div>
 
     </div>
-    <div class="container-fluid"></div>
+    <div class="container-fluid">
+      <div class="row justify-content-center text-center py-4">
+        <div class="col-2 align-items-center">
+          <img
+            src="https://www.denofgeek.com/wp-content/uploads/2020/06/the-100-season-7-episode-5-review-welcome-to-bardo.jpg?resize=400%2C400"
+            alt="..." class="img-thumbnail img-fluid">
+          <button class="btn btn-danger py-0 my-2">TV</button>
+          <p>The 100 Season 7 Episode 5 Review: Welcome to Bardo</p>
+          <p>By <b>Delia Harrington</b></p>
+        </div>
+        <div class="col-5 align-items-start">
+          <img src="https://www.denofgeek.com/wp-content/uploads/2020/06/arcade1up.jpg?resize=768%2C432" alt="..."
+            class="img-thumbnail">
+          <button class="btn btn-teal py-0 my-2">GAMES</button>
+          <h4>How Arcade1Up Plans to Revive Arcade Culture</h4>
+          <p>By <b>Bernard Boo</b></p>
+        </div>
+        <div class="col-2 align-items-center">
+          <img
+            src="https://www.denofgeek.com/wp-content/uploads/2020/06/agents-of-shield-season-7-episode-4-out-of-the-past-coulson-marvel-abc.jpg?resize=400%2C400"
+            alt="..." class="img-thumbnail">
+          <button class="btn btn-danger py-0 my-2">TV</button>
+          <p>Agents of SHIELD Season 7 Episode 4 Review: Out of the Past</p>
+          <p>By <b>Michael Ahr</b></p>
+        </div>
+      </div>
+    </div>
     <!-- Grant section below -->
     <div class="container-fluid"></div>
 
